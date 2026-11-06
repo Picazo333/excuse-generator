@@ -1,0 +1,113 @@
+commit: f0b404955ece248b9905c2f5e50e891bebacc455
+branch: cursor/excuse-generator-3a7e
+base: main
+repo: Picazo333/excuse-generator
+generated_at: "2026-11-06T12:41:24+00:00"
+preview: http://127.0.0.1:4173/
+build: dist/ served by serve 14, production webpack
+items:
+  - id: unit-tests
+    rubric: [R05, R06, R07, R08, R09, R10, R12, R18, R23, R34]
+    path: test/excuse.test.js
+    command: npm test
+    result: "13 pass, 0 fail"
+  - id: contrast-test
+    rubric: [R21]
+    path: test/contrast.test.js
+  - id: provenance-hashes
+    rubric: [R15, R19, R20]
+    path: test/provenance.test.js
+    sha256:
+      signal-horizontal.svg: 85459232bf51e7bf7c94225fd4f2cd6b71a681b6d701cb4ffd6d2a142cf57a81
+      signal-stacked.svg: 11314b300284db342bc15a7c7695c23199f65f68178af45586b62d01e9ea133a
+      tokens.css: 9b1f68b4a44d79f0990778953c208af96c08e5bd8bd4f70b16697fbb24f51e52
+      motion.css: 36b2f4d56439871d1ae46d4e2ad3e3d0d0b5da7a2700c503d4382247784b2f5c
+      OFFICIAL_README.md: cc5a1547e4c6f0fcc8075995aee8e0a9c56fbc58a709918b91ab22fcb4b85571
+      OFFICIAL_README.es.md: f35b1e281384801120cf7e381885f614182ece2698887d109b033818e10b225e
+      learn.json: b87513e70828ba0ee0e05e74779be14b05af846cbf0387cc32d5ada96bb0d2ea
+  - id: webpack-build
+    rubric: [R11, R28, R34]
+    command: npm run build
+    result: "webpack 5.112.2 compiled successfully"
+    budgets:
+      js_gzip_bytes: 799
+      css_gzip_bytes: 2294
+  - id: browser-report
+    rubric: [R01, R02, R17, R20, R21, R22, R24, R30, R35]
+    path: /opt/cursor/artifacts/browser-report.json
+  - id: screenshots
+    rubric: [R14, R17, R22, R24, R25, R30]
+    files:
+      - /opt/cursor/artifacts/screenshots/390.png
+      - /opt/cursor/artifacts/screenshots/768.png
+      - /opt/cursor/artifacts/screenshots/1280.png
+      - /opt/cursor/artifacts/screenshots/390-after-click.png
+      - /opt/cursor/artifacts/screenshots/390-focus.png
+      - /opt/cursor/artifacts/screenshots/390-reduced.png
+      - /opt/cursor/artifacts/screenshots/390-nojs.png
+      - /opt/cursor/artifacts/screenshots/390-text-200.png
+      - /opt/cursor/artifacts/screenshots/320.png
+      - /opt/cursor/artifacts/screenshots/404-390.png
+  - id: video
+    rubric: [R26, R29]
+    files:
+      - /opt/cursor/artifacts/excuse-interaction.webm
+      - /opt/cursor/artifacts/excuse-interaction.mp4
+    duration_s: 8.8
+    frames: 220
+    fps: 25
+    viewport: "390x844"
+  - id: lighthouse-summary
+    rubric: [R27, R28]
+    path: lighthouse-summary.json
+    commit_path: lighthouse-summary.json
+    full_json_dir: /opt/cursor/artifacts/lighthouse
+    runs: 6
+    lighthouse: 12.8.2
+    mobile:
+      lcp_ms_median: 1053.8343
+      lcp_ms_worst: 1054.3917
+      cls_median: 0.002698119916328739
+      tbt_ms: 0
+      screen: "390x844"
+      rtt_ms: 150
+      throughput_kbps: 1638.4
+      cpu: 4
+    desktop:
+      lcp_ms_median: 244.9198
+      lcp_ms_worst: 246.3268
+      cls: 0
+      tbt_ms: 0
+      screen: "1280x800"
+      rtt_ms: 40
+      throughput_kbps: 10240
+      cpu: 1
+    inp: null
+    inp_reason: "Lighthouse 12.8.2 lab JSON has no interaction-to-next-paint audit"
+  - id: http-404
+    rubric: [R30, R35]
+    command: "curl -sI http://127.0.0.1:4173/no-such-page"
+    status: 404
+  - id: anti-ia-scan
+    rubric: [R16]
+    path: /opt/cursor/artifacts/RUBRIC.md
+    result: LIMPIO
+  - id: classification-r37-r40
+    rubric: [R37, R38, R39, R40]
+    evidence_commit: f0b404955ece248b9905c2f5e50e891bebacc455
+    result:
+      R37: HITL_MIGUEL
+      R38: NO_APLICA
+      R39: NO_APLICA
+      R40: NO_APLICA
+    counts:
+      required_pass: 35
+      required_total: 35
+      hitl_envio_miguel: [R36]
+      hitl_miguel: [R37]
+      no_aplica: [R38, R39, R40]
+    citations:
+      R37: "source/OFFICIAL_README.md:17-19; source/OFFICIAL_README.es.md:17-19"
+      R38: "source/OFFICIAL_README.md:15,57-59; source/OFFICIAL_README.es.md:15,57-59"
+      R39: "source/OFFICIAL_README.md:15,57-59; source/OFFICIAL_README.es.md:15,57-59"
+      R40: "source/OFFICIAL_README.md:15,25-37,57-59; source/OFFICIAL_README.es.md:15,25-37,57-59"
