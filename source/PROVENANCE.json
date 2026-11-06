@@ -1,0 +1,41 @@
+[
+  {
+    "file": "OFFICIAL_README.md",
+    "official_path": "README.md",
+    "resource_uri": "repo://4GeeksAcademy/tutorial-project-excuse-generator-javascript/sha/b74fb88e5b90dfefc0229eb0827b3b194b91706e/contents/README.md",
+    "download_url": "https://raw.githubusercontent.com/4GeeksAcademy/tutorial-project-excuse-generator-javascript/b74fb88e5b90dfefc0229eb0827b3b194b91706e/README.md",
+    "sha256": "cc5a1547e4c6f0fcc8075995aee8e0a9c56fbc58a709918b91ab22fcb4b85571",
+    "method": "curl_raw_githubusercontent",
+    "fetched_at": "2026-11-06 America/Mexico_City",
+    "registry_slug": "excuse-generator",
+    "source_repo": "4GeeksAcademy/tutorial-project-excuse-generator-javascript",
+    "commit": "b74fb88e5b90dfefc0229eb0827b3b194b91706e",
+    "upstream_parent": "breatheco-de/tutorial-project-excuse-generator-javascript"
+  },
+  {
+    "file": "OFFICIAL_README.es.md",
+    "official_path": "README.es.md",
+    "resource_uri": "repo://4GeeksAcademy/tutorial-project-excuse-generator-javascript/sha/b74fb88e5b90dfefc0229eb0827b3b194b91706e/contents/README.es.md",
+    "download_url": "https://raw.githubusercontent.com/4GeeksAcademy/tutorial-project-excuse-generator-javascript/b74fb88e5b90dfefc0229eb0827b3b194b91706e/README.es.md",
+    "sha256": "f35b1e281384801120cf7e381885f614182ece2698887d109b033818e10b225e",
+    "method": "curl_raw_githubusercontent",
+    "fetched_at": "2026-11-06 America/Mexico_City",
+    "registry_slug": "excuse-generator",
+    "source_repo": "4GeeksAcademy/tutorial-project-excuse-generator-javascript",
+    "commit": "b74fb88e5b90dfefc0229eb0827b3b194b91706e",
+    "upstream_parent": "breatheco-de/tutorial-project-excuse-generator-javascript"
+  },
+  {
+    "file": "learn.json",
+    "official_path": "learn.json",
+    "resource_uri": "repo://4GeeksAcademy/tutorial-project-excuse-generator-javascript/sha/b74fb88e5b90dfefc0229eb0827b3b194b91706e/contents/learn.json",
+    "download_url": "https://raw.githubusercontent.com/4GeeksAcademy/tutorial-project-excuse-generator-javascript/b74fb88e5b90dfefc0229eb0827b3b194b91706e/learn.json",
+    "sha256": "b87513e70828ba0ee0e05e74779be14b05af846cbf0387cc32d5ada96bb0d2ea",
+    "method": "curl_raw_githubusercontent",
+    "fetched_at": "2026-11-06 America/Mexico_City",
+    "registry_slug": "excuse-generator",
+    "source_repo": "4GeeksAcademy/tutorial-project-excuse-generator-javascript",
+    "commit": "b74fb88e5b90dfefc0229eb0827b3b194b91706e",
+    "upstream_parent": "breatheco-de/tutorial-project-excuse-generator-javascript"
+  }
+]

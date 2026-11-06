@@ -1,0 +1,5 @@
+User-agent: *
+Disallow: /
+
+# Academic preview. No confirmed public domain, so this build asks crawlers to stay out.
+# There is no sitemap.

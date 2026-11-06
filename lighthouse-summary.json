@@ -1,0 +1,290 @@
+{
+  "url": "http://127.0.0.1:4173/",
+  "generated_at": "2026-11-06T12:37:32.753Z",
+  "throttling_method": "simulate",
+  "chrome_path": "/usr/bin/google-chrome-stable",
+  "chrome_path_note": "chrome-launcher getChromePath() on this machine. The launch handle did not expose a path, so this was recorded from the same launcher after the six runs.",
+  "runs": {
+    "mobile": [
+      {
+        "index": 1,
+        "lcp_ms": 1053.4141,
+        "cls": 0.002698119916328739,
+        "tbt_ms": 0,
+        "inp_ms": null,
+        "performance_score": 1,
+        "configSettings": {
+          "formFactor": "mobile",
+          "throttlingMethod": "simulate",
+          "screenEmulation": {
+            "mobile": true,
+            "width": 390,
+            "height": 844,
+            "deviceScaleFactor": 1,
+            "disabled": false
+          },
+          "throttling": {
+            "rttMs": 150,
+            "throughputKbps": 1638.4,
+            "requestLatencyMs": 562.5,
+            "downloadThroughputKbps": 1474.56,
+            "uploadThroughputKbps": 675,
+            "cpuSlowdownMultiplier": 4
+          }
+        },
+        "lighthouseVersion": "12.8.2",
+        "requestedUrl": "http://127.0.0.1:4173/",
+        "finalDisplayedUrl": "http://127.0.0.1:4173/"
+      },
+      {
+        "index": 2,
+        "lcp_ms": 1054.3917,
+        "cls": 0.002698119916328739,
+        "tbt_ms": 0,
+        "inp_ms": null,
+        "performance_score": 1,
+        "configSettings": {
+          "formFactor": "mobile",
+          "throttlingMethod": "simulate",
+          "screenEmulation": {
+            "mobile": true,
+            "width": 390,
+            "height": 844,
+            "deviceScaleFactor": 1,
+            "disabled": false
+          },
+          "throttling": {
+            "rttMs": 150,
+            "throughputKbps": 1638.4,
+            "requestLatencyMs": 562.5,
+            "downloadThroughputKbps": 1474.56,
+            "uploadThroughputKbps": 675,
+            "cpuSlowdownMultiplier": 4
+          }
+        },
+        "lighthouseVersion": "12.8.2",
+        "requestedUrl": "http://127.0.0.1:4173/",
+        "finalDisplayedUrl": "http://127.0.0.1:4173/"
+      },
+      {
+        "index": 3,
+        "lcp_ms": 1053.8343,
+        "cls": 0.002698119916328739,
+        "tbt_ms": 0,
+        "inp_ms": null,
+        "performance_score": 1,
+        "configSettings": {
+          "formFactor": "mobile",
+          "throttlingMethod": "simulate",
+          "screenEmulation": {
+            "mobile": true,
+            "width": 390,
+            "height": 844,
+            "deviceScaleFactor": 1,
+            "disabled": false
+          },
+          "throttling": {
+            "rttMs": 150,
+            "throughputKbps": 1638.4,
+            "requestLatencyMs": 562.5,
+            "downloadThroughputKbps": 1474.56,
+            "uploadThroughputKbps": 675,
+            "cpuSlowdownMultiplier": 4
+          }
+        },
+        "lighthouseVersion": "12.8.2",
+        "requestedUrl": "http://127.0.0.1:4173/",
+        "finalDisplayedUrl": "http://127.0.0.1:4173/"
+      }
+    ],
+    "desktop": [
+      {
+        "index": 1,
+        "lcp_ms": 246.3268,
+        "cls": 0,
+        "tbt_ms": 0,
+        "inp_ms": null,
+        "performance_score": 1,
+        "configSettings": {
+          "formFactor": "desktop",
+          "throttlingMethod": "simulate",
+          "screenEmulation": {
+            "mobile": false,
+            "width": 1280,
+            "height": 800,
+            "deviceScaleFactor": 1,
+            "disabled": false
+          },
+          "throttling": {
+            "rttMs": 40,
+            "throughputKbps": 10240,
+            "requestLatencyMs": 0,
+            "downloadThroughputKbps": 0,
+            "uploadThroughputKbps": 0,
+            "cpuSlowdownMultiplier": 1
+          }
+        },
+        "lighthouseVersion": "12.8.2",
+        "requestedUrl": "http://127.0.0.1:4173/",
+        "finalDisplayedUrl": "http://127.0.0.1:4173/"
+      },
+      {
+        "index": 2,
+        "lcp_ms": 244.9198,
+        "cls": 0,
+        "tbt_ms": 0,
+        "inp_ms": null,
+        "performance_score": 1,
+        "configSettings": {
+          "formFactor": "desktop",
+          "throttlingMethod": "simulate",
+          "screenEmulation": {
+            "mobile": false,
+            "width": 1280,
+            "height": 800,
+            "deviceScaleFactor": 1,
+            "disabled": false
+          },
+          "throttling": {
+            "rttMs": 40,
+            "throughputKbps": 10240,
+            "requestLatencyMs": 0,
+            "downloadThroughputKbps": 0,
+            "uploadThroughputKbps": 0,
+            "cpuSlowdownMultiplier": 1
+          }
+        },
+        "lighthouseVersion": "12.8.2",
+        "requestedUrl": "http://127.0.0.1:4173/",
+        "finalDisplayedUrl": "http://127.0.0.1:4173/"
+      },
+      {
+        "index": 3,
+        "lcp_ms": 244.39999999999998,
+        "cls": 0,
+        "tbt_ms": 0,
+        "inp_ms": null,
+        "performance_score": 1,
+        "configSettings": {
+          "formFactor": "desktop",
+          "throttlingMethod": "simulate",
+          "screenEmulation": {
+            "mobile": false,
+            "width": 1280,
+            "height": 800,
+            "deviceScaleFactor": 1,
+            "disabled": false
+          },
+          "throttling": {
+            "rttMs": 40,
+            "throughputKbps": 10240,
+            "requestLatencyMs": 0,
+            "downloadThroughputKbps": 0,
+            "uploadThroughputKbps": 0,
+            "cpuSlowdownMultiplier": 1
+          }
+        },
+        "lighthouseVersion": "12.8.2",
+        "requestedUrl": "http://127.0.0.1:4173/",
+        "finalDisplayedUrl": "http://127.0.0.1:4173/"
+      }
+    ]
+  },
+  "mobile": {
+    "lcp_ms": {
+      "median": 1053.8343,
+      "worst": 1054.3917,
+      "values": [
+        1053.4141,
+        1054.3917,
+        1053.8343
+      ]
+    },
+    "cls": {
+      "median": 0.002698119916328739,
+      "worst": 0.002698119916328739,
+      "values": [
+        0.002698119916328739,
+        0.002698119916328739,
+        0.002698119916328739
+      ]
+    },
+    "tbt_ms": {
+      "median": 0,
+      "worst": 0,
+      "values": [
+        0,
+        0,
+        0
+      ]
+    },
+    "inp_ms": {
+      "median": null,
+      "worst": null,
+      "values": []
+    },
+    "targets": {
+      "lcp_ms": 2500,
+      "cls": 0.1,
+      "tbt_ms": 200
+    }
+  },
+  "desktop": {
+    "lcp_ms": {
+      "median": 244.9198,
+      "worst": 246.3268,
+      "values": [
+        246.3268,
+        244.9198,
+        244.39999999999998
+      ]
+    },
+    "cls": {
+      "median": 0,
+      "worst": 0,
+      "values": [
+        0,
+        0,
+        0
+      ]
+    },
+    "tbt_ms": {
+      "median": 0,
+      "worst": 0,
+      "values": [
+        0,
+        0,
+        0
+      ]
+    },
+    "inp_ms": {
+      "median": null,
+      "worst": null,
+      "values": []
+    },
+    "targets": {
+      "lcp_ms": 2500,
+      "cls": 0.1,
+      "tbt_ms": 200
+    }
+  },
+  "inp_note": "Lighthouse laboratory JSON has no Interaction to Next Paint audit in this run when inp_ms is null. Total blocking time is the laboratory proxy. INP was not invented.",
+  "budgets": {
+    "js": {
+      "file": "app.556154e9653dc1a0e21e.js",
+      "raw_bytes": 1558,
+      "gzip_bytes": 799
+    },
+    "css": {
+      "file": "style.508d261c804dc38b5da8.css",
+      "raw_bytes": 7275,
+      "gzip_bytes": 2294
+    },
+    "limits": {
+      "js_gzip_bytes": 174080,
+      "css_gzip_bytes": 40960
+    },
+    "js_within_limit": true,
+    "css_within_limit": true
+  }
+}

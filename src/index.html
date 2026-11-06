@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Excuse generator</title>
+    <meta
+      name="description"
+      content="A page that builds one excuse from four lists: who, action, what, and when."
+    />
+    <meta name="robots" content="noindex, nofollow" />
+    <link rel="icon" href="/favicon.png" type="image/png" />
+  </head>
+  <body>
+    <a class="skip" href="#excuse">Skip to the excuse</a>
+    <header class="site-header">
+      <div class="shell">
+        <p class="site-name">Excuse generator</p>
+      </div>
+    </header>
+    <main id="content">
+      <div class="shell stage">
+        <h1>OMG! you will not believe me but...</h1>
+        <p id="excuse" tabindex="-1">My dog ate my homework</p>
+        <button type="button" id="new-excuse">Generate a new excuse</button>
+        <p id="status" role="status" aria-live="polite"></p>
+        <noscript>
+          <p>JavaScript is off, so the excuse written in the page stays as it is.</p>
+        </noscript>
+      </div>
+      <section class="method" aria-labelledby="method-title">
+        <div class="shell">
+          <h2 id="method-title">How the sentence is built</h2>
+          <p>
+            Refresh the page. Each excuse is one item from each list, joined in this order.
+          </p>
+          <ol>
+            <li>Who: The dog, My grandma, The mailman, My bird.</li>
+            <li>Action: ate, peed, crushed, broke.</li>
+            <li>What: my homework, my phone, the car.</li>
+            <li>When: before the class, when I was sleeping, while I was exercising, during my lunch, while I was praying.</li>
+          </ol>
+        </div>
+      </section>
+    </main>
+    <footer class="site-footer">
+      <div class="shell">
+        <p class="credit">Academic visual credit. This is not an official partnership.</p>
+        <img
+          class="lockup lockup-horizontal"
+          src="/brand/lockups/signal-horizontal.svg"
+          alt="4Geeks por Divinivid"
+          width="1000"
+          height="160"
+        />
+        <img
+          class="lockup lockup-stacked"
+          src="/brand/lockups/signal-stacked.svg"
+          alt="4Geeks por Divinivid"
+          width="600"
+          height="300"
+        />
+      </div>
+    </footer>
+  </body>
+</html>
